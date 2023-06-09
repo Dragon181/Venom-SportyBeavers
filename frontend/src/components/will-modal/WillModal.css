@@ -1,0 +1,24 @@
+.will-modal__note {
+    width: 107px;
+    height: 107px;
+    border-radius: 0 0 214px 0;
+    background-color: #E14F20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 6px 0 0 10px;
+}
+
+.will-modal__note .font-primary {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.will-modal__note .font-secondary {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 109%;
+}

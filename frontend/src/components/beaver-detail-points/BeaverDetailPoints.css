@@ -1,0 +1,46 @@
+.beaver-detail__points {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+.beaver-detail__points-item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 73px 42px;
+    background-position: bottom right;
+}
+.beaver-detail__points-item p {
+    padding: 0 0 0 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+.beaver-detail__points-item span {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    padding: 0 63px 0 0;
+    color: #FFFFFF;
+}
+
+.beaver-detail__points-item:first-of-type {
+    background-image: url("../../../public/images/StrengthBackground.png");
+}
+.beaver-detail__points-item:nth-of-type(2) {
+    background-image: url("../../../public/images/AgilityBackground.png");
+}
+.beaver-detail__points-item:nth-of-type(3) {
+    background-image: url("../../../public/images/EnduranceBackground.png");
+}
+.beaver-detail__points-item:nth-of-type(4) {
+    background-image: url("../../../public/images/WillBackground.png");
+}

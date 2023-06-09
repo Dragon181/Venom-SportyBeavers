@@ -1,0 +1,69 @@
+.beaver-detail-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beaver-detail__level-up-button {
+    width: 100%;
+    max-width: 500px;
+    height: 84px;
+    padding: 18px;
+    text-align: left;
+    background: linear-gradient(283.18deg, #01D8FD 3.49%, #8428EC 49.67%, #F402BF 90.92%);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: #FFFFFF;
+    margin: 16px 0 24px 0;
+}
+.beaver-detail__level-up-arrow {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 166px;
+    height: 77px;
+    background-image: url("data:image/svg+xml,%3Csvg width='166' height='77' viewBox='0 0 166 77' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d_3994_40377)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M111.742 10H155L147.667 52.2111L132.518 49.5734L134.778 36.5658L72.1632 87.2493L68.7366 59.3147L20.2739 96L11 83.7203L80.7463 30.9237L84.0471 57.8328L124.121 25.3947H111.742V10Z' stroke='%23F402BF' stroke-width='4'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_3994_40377' x='0.199951' y='0' width='165.177' height='106.803' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='4'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.956863 0 0 0 0 0.00784314 0 0 0 0 0.748079 0 0 0 1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_3994_40377'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_3994_40377' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.level-up-image {
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.level-up-image img {
+    position: absolute;
+    top: 0;
+    left: -16px;
+    width: calc(100% + 32px);
+}
+
+.beaver-detail__mint-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 500px;
+    height: 48px;
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.1), rgba(241, 241, 241, 0.1)), linear-gradient(104.25deg, rgba(130, 232, 255, 0.25) 0%, rgba(55, 159, 255, 0.25) 100%);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 135%;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 16px 0 0 0;
+    z-index: 1;
+}
+
+.beaver-detail__mint-button-arrow {
+    width: 49px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg width='49' height='16' viewBox='0 0 49 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48.7071 8.70711C49.0976 8.31658 49.0976 7.68342 48.7071 7.29289L42.3431 0.928932C41.9526 0.538408 41.3195 0.538408 40.9289 0.928932C40.5384 1.31946 40.5384 1.95262 40.9289 2.34315L46.5858 8L40.9289 13.6569C40.5384 14.0474 40.5384 14.6805 40.9289 15.0711C41.3195 15.4616 41.9526 15.4616 42.3431 15.0711L48.7071 8.70711ZM0 9L48 9V7L0 7L0 9Z' fill='white'/%3E%3C/svg%3E%0A");
+}

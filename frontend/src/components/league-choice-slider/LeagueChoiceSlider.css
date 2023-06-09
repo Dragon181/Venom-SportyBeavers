@@ -1,0 +1,126 @@
+.league-choice-slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 100px;
+    padding-bottom: 193px;
+}
+
+.league-choice-slider .prev-arrow,
+.league-choice-slider .next-arrow {
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+}
+.league-choice-slider .prev-arrow { left: 16px; }
+.league-choice-slider .next-arrow { right: 16px; }
+
+
+.league-slider-items {
+    width: 100%;
+    min-height: 314px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.league-slider-items * {
+    z-index: 1;
+}
+
+.league-slider-item {
+    min-width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.league-slider-item_active {
+    display: flex;
+
+}
+
+
+.league-slider-item img {
+    margin: 0 0 12px 0;
+}
+
+
+.league-slider-item__gain {
+    background: #2042B8;
+    min-height: 119px;
+    min-width: 200%;
+    box-shadow: 0 6px 12px #0C0C0C;
+    transform: rotate(-3.05deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 15px 0;
+    margin: 21px 0 33px 0;
+}
+
+.league-slider-item__gain span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.league-slider-item__gain .heading {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 100%;
+}
+
+
+
+.league-slider__pagination {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.league-slider__pagination-item {
+    display: block;
+    width: 28px;
+    height: 4px;
+    background: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 4px;
+}
+
+.league-slider__pagination-item:not(:last-of-type) {
+    margin: 0 8px 0 0;
+}
+
+.league-slider__pagination-item_active {
+    opacity: 1;
+}
+
+
+.league-slider__background-gradient {
+    background-image: url('../../../public/images/LeagueBackgroundGradient.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    min-width: 280px;
+    min-height: 270px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.98;
+    filter: blur(75px);
+    transform: translate3d(0, 0, 0);
+    top: -100px;
+    z-index: 0;
+}
+
+.league-choice-slider button {
+    width: calc(100% - 32px);
+}

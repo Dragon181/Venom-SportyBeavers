@@ -1,0 +1,35 @@
+.market {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.market .heading {
+    width: min-content;
+}
+
+.market .main-header {
+    margin: 0 0 24px 0;
+}
+
+.market__background-gradient {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 154px;
+    left: -152px;
+    background: #254EDB;
+    filter: blur(90px);
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+}
+
+.market__lootboxes-preview {
+    z-index: 1;
+    margin: 0 0 32px 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 690px;
+    justify-content: flex-start;
+}

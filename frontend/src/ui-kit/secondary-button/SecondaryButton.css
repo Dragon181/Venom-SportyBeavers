@@ -1,0 +1,17 @@
+.secondary-button {
+    width: 100%;
+    min-width: 260px;
+    max-width: 500px;
+
+    height: 56px;
+
+    background: transparent;
+    border-radius: 12px;
+
+    padding: 17px;
+
+    text-align: center;
+    font-size: 17px;
+    line-height: 22px;
+    color: #E1E3EA;
+}

@@ -1,0 +1,100 @@
+.battle-properties {
+    width: 125px;
+    height: 149px;
+    display: flex;
+    flex-direction: column;
+}
+
+.battle-properties__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.battle-properties__stamina {
+    width: 94px;
+    height: 17px;
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.1), rgba(241, 241, 241, 0.1)), linear-gradient(104.25deg, rgba(255, 124, 226, 0.25) 0%, rgba(255, 0, 199, 0.25) 100%);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding: 4px 6px;
+    position: relative;
+}
+
+.battle-properties__stamina-flashed {
+    background: #F402BF;
+    border-radius: 3px;
+    position: absolute;
+    height: 13px;
+    top: 2px;
+    left: 2px;
+    z-index: -1;
+    transition: width 300ms ease-in-out;
+}
+
+
+.battle-properties__point {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.battle-properties__item-icon {
+    width: 24px;
+    height: 24px;
+    left: 16px;
+    top: 403px;
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.1), rgba(241, 241, 241, 0.1)), linear-gradient(104.25deg, rgba(255, 124, 226, 0.25) 0%, rgba(255, 0, 199, 0.25) 100%);
+    border-radius: 3px;
+    margin: 0 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.battle-properties__label {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+.battle-properties__prop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.battle-properties__item:first-of-type,
+.battle-properties__item:nth-of-type(4) {
+    margin: 0 0 12px 0;
+}
+.battle-properties__item:nth-of-type(2),
+.battle-properties__item:nth-of-type(3) {
+    margin: 0 0 6px 0;
+}
+
+.battle-properties_isUser .battle-properties__stamina,
+.battle-properties_isUser .battle-properties__item-icon {
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.1), rgba(241, 241, 241, 0.1)), linear-gradient(104.25deg, rgba(130, 232, 255, 0.25) 0%, rgba(55, 159, 255, 0.25) 100%);
+}
+
+.battle-properties_isUser .battle-properties__stamina-flashed {
+    background: #02BCF4;
+}
+
+
+.battle-properties_red {
+    color: #E14F20;
+}

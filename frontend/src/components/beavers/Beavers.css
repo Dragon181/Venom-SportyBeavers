@@ -1,0 +1,31 @@
+.beavers-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beavers {
+    width: 100%;
+    min-height: 357px;
+    margin: 40px 0 32px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.beavers__background-gradient {
+    position: absolute;
+    width: 544px;
+    height: 544px;
+    /*right: -190px;*/
+    left: calc(50% - 82px);
+    top: 27px;
+    background: #254EDB;
+    filter: blur(125px);
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+}

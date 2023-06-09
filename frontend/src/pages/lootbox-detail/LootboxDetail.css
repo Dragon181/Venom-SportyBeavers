@@ -1,0 +1,93 @@
+.lootbox-detail {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lootbox-detail__gradient {
+    position: absolute;
+    width: 567px;
+    height: 368px;
+    left: calc(50% - 283px);
+    top: -140px;
+
+    background: #8A3BF1;
+    opacity: 0.6;
+    filter: blur(100px);
+}
+
+.lootbox-detail .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.lootbox-detail__gift {
+    width: 328px;
+    height: 312px;
+    background: url('../../../public/images/LootboxDetailGift.png') no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.lootbox-detail h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.lootbox-detail p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.lootbox-detail__chances {
+    width: 328px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0 32px 0;
+}
+
+.lootbox-detail__chance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 156px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+.lootbox-detail__chance-picture {
+    width: 156px;
+    height: 224px;
+}
+.lootbox-detail__chance-item:first-of-type .lootbox-detail__chance-picture {
+    background: url('../../../public/images/LootboxDetailBeavCard.png');
+}
+.lootbox-detail__chance-item:last-of-type .lootbox-detail__chance-picture:last-of-type {
+    background: url('../../../public/images/LootboxDetailCoinCard.png');
+}
+
+.lootbox-detail__chance-item span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.lootbox-detail__chance-item p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}

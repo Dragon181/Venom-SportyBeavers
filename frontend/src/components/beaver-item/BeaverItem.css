@@ -1,0 +1,88 @@
+
+/**
+ *  Not active item
+ */
+.beavers-item:not(.beavers-item_active) {
+    width: fit-content;
+    height: 250px;
+    position: absolute;
+    right: calc(50% - 370px);
+    z-index: 1;
+    filter: blur(1px);
+    transform: translate3d(0, 0, 0);
+    transition: right 300ms ease-in-out;
+}
+.beavers-item:not(.beavers-item_active) .heading {
+    font-size: 20px;
+    line-height: inherit;
+    bottom: 34px;
+}
+.beavers-item:not(.beavers-item_active) .secondary-text {
+    font-size: 14px;
+    line-height: inherit;
+    bottom: 16px;
+}
+
+.beavers-item__background {
+    height: inherit;
+}
+.beavers-item__image {
+    width: 280px;
+    position: absolute;
+    left: -37px;
+    top: -60px;
+}
+.beavers-item .heading {
+    position: absolute;
+    bottom: 49px;
+    left: 27px;
+    margin: 0;
+    font-size: 26px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+}
+.beavers-item .secondary-text {
+    position: absolute;
+    bottom: 22px;
+    left: 27px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+}
+
+/**
+ *  Active item
+ */
+.beavers-item_active {
+    cursor: pointer;
+    height: 357px;
+    position: absolute;
+    right: calc(50% - 150px);
+    z-index: 2;
+    transition: right 300ms ease-in-out;
+}
+.beavers-item_active .beavers-item__image {
+    width: 390px;
+    position: absolute;
+    left: -47px;
+    top: -80px;
+}
+.beavers-item_active .beavers-item .heading {
+    position: absolute;
+    bottom: 49px;
+    left: 27px;
+    margin: 0;
+    font-size: 26px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+}
+.beavers-item_active .beavers-item .secondary-text {
+    position: absolute;
+    bottom: 22px;
+    left: 27px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+}

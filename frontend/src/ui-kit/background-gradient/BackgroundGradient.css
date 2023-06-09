@@ -1,0 +1,13 @@
+.background-gradient {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    z-index: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.background-gradient img {
+    width: 100%;
+}

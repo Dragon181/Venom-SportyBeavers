@@ -1,0 +1,25 @@
+.back-button {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 8px;
+    height: 34px;
+    width: 120px;
+    background: transparent;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.back-button::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 11px;
+    display: block;
+    width: 7px;
+    height: 12px;
+    background-image: url('data:image/svg+xml,%3Csvg width=%277%27 height=%2712%27 viewBox=%270 0 7 12%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M0 6C0 6.23051 0.0894789 6.42712 0.27532 6.60339L5.64405 11.7763C5.78859 11.9254 5.98132 12 6.20157 12C6.64897 12 7 11.661 7 11.2136C7 10.9966 6.91052 10.8 6.7591 10.6508L1.92035 6L6.7591 1.34915C6.91052 1.19322 7 0.99661 7 0.779661C7 0.338983 6.64897 0 6.20157 0C5.98132 0 5.78859 0.0745763 5.64405 0.223729L0.27532 5.39661C0.0894789 5.57288 0.00688299 5.76949 0 6Z%27 fill=%27white%27/%3E%3C/svg%3E%0A');
+}

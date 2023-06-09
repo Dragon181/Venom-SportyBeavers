@@ -1,0 +1,59 @@
+.market-beaver {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 156px;
+    height: 224px;
+    padding: 4px;
+    background-image: url('../../../public/images/MarketBeaverBackground.png');
+    cursor: pointer;
+}
+
+.market-beaver:not(:first-of-type) {
+    margin: 0 0 12px 0;
+}
+
+.market-beaver__image {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.market-beaver__image img {
+    width: 210px;
+    position: absolute;
+    top: -32px;
+    left: -30px;
+}
+
+.market-beaver .heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.market-beaver__text {
+    width: 100%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 0 0 9px 0;
+}
+
+.market-beaver__cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 29px;
+    background: #F402BF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}

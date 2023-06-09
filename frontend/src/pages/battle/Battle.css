@@ -1,0 +1,107 @@
+.battle {
+    height: calc(100% - 174px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.battle__header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 12px 0;
+    z-index: 1;
+}
+
+.battle__header .heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 31px;
+}
+
+.battle__points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 0 12px 0;
+    z-index: 1;
+}
+
+.battle__timer {
+    width: 62px;
+    height: 82px;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    bottom: 82%;
+    left: calc(50% - 31px);
+}
+.battle__timer_active {
+    display: flex;
+}
+
+
+.battle__timer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+
+.battle__timer-seconds {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battle__timer-seconds span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.battle__timer-spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='44' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M44 22C44 34.1503 34.1503 44 22 44C9.84974 44 0 34.1503 0 22C0 9.84974 9.84974 0 22 0C34.1503 0 44 9.84974 44 22ZM5.5 22C5.5 31.1127 12.8873 38.5 22 38.5C31.1127 38.5 38.5 31.1127 38.5 22C38.5 12.8873 31.1127 5.5 22 5.5C12.8873 5.5 5.5 12.8873 5.5 22Z' fill='white'/%3E%3Cpath d='M41.25 22C42.7688 22 44.0177 23.236 43.8283 24.7429C43.5098 27.2783 42.7509 29.746 41.5793 32.0326C39.9883 35.1375 37.6816 37.8196 34.8498 39.8573C32.0179 41.8951 28.742 43.2301 25.2925 43.7522C21.8429 44.2744 18.3187 43.9686 15.0106 42.8602C11.7025 41.7518 8.70548 39.8725 6.26686 37.3775C3.82824 34.8825 2.01798 31.8433 0.98548 28.5108C-0.0470162 25.1782 -0.272134 21.6479 0.328709 18.2112C0.771196 15.6802 1.6523 13.2535 2.92554 11.038C3.68231 9.72119 5.42375 9.48719 6.63594 10.4022V10.4022C7.84814 11.3173 8.06537 13.0343 7.36411 14.3815C6.58581 15.8768 6.03869 17.4873 5.74653 19.1584C5.2959 21.7359 5.46474 24.3837 6.23911 26.8831C7.01348 29.3825 8.37118 31.6619 10.2001 33.5331C12.0291 35.4044 14.2769 36.8139 16.7579 37.6452C19.239 38.4765 21.8822 38.7058 24.4693 38.3142C27.0565 37.9226 29.5134 36.9213 31.6373 35.393C33.7612 33.8647 35.4912 31.8531 36.6844 29.5244C37.4581 28.0146 37.9917 26.3996 38.2714 24.7373C38.5233 23.2396 39.7312 22 41.25 22V22Z' fill='%2301D8FD'/%3E%3C/svg%3E%0A");
+    width: 44px;
+    height: 44px;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+

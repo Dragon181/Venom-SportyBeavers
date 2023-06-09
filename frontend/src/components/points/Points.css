@@ -1,0 +1,35 @@
+.properties {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 48px 0;
+}
+.properties-item {
+    box-sizing: border-box;
+    position: relative;
+    width: calc(50% - 6px);
+    max-width: 250px;
+    height: 48px;
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.1), rgba(241, 241, 241, 0.1)), linear-gradient(104.25deg, rgba(130, 232, 255, 0.25) 0%, rgba(55, 159, 255, 0.25) 100%);
+    border-radius: 6px;
+    padding: 7px 0 0 66px;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.properties-item img {
+    position: absolute;
+    left: 12px;
+    bottom: 8px;
+}
+.properties-item p {
+    margin: 0;
+}
+.properties-item span {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 4px;
+}

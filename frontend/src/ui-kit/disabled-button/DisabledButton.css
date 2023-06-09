@@ -1,0 +1,13 @@
+.disabled-button {
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    height: 56px;
+    border-radius: 12px;
+    padding: 17px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 22px;
+    color: #07010A;
+    background-color: #9B9B9B;
+}

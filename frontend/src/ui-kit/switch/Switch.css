@@ -1,0 +1,33 @@
+.switch {
+    width: 100%;
+    max-width: 500px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    background: linear-gradient(0deg, rgba(241, 241, 241, 0.1), rgba(241, 241, 241, 0.1)), linear-gradient(104.25deg, rgba(130, 232, 255, 0.25) 0%, rgba(55, 159, 255, 0.25) 100%);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.switch-button {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.switch-button_active {
+    background: linear-gradient(283.18deg, #01D8FD 3.49%, #8428EC 49.67%, #F402BF 90.92%);
+}

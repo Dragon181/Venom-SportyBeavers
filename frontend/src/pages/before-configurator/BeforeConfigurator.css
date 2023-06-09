@@ -1,0 +1,94 @@
+.before-configurator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.before-configurator__beaver {
+    min-width: 340px;
+    position: absolute;
+    bottom: 210px;
+}
+
+.before-configurator img,
+.before-configurator .heading,
+.before-configurator .primary-button {
+    z-index: 1;
+}
+
+.before-configurator .heading {
+    margin: 30px 0 94px 0;
+}
+
+.before-configurator .background-gradient {
+    bottom: 200px;
+}
+
+.before-configurator .back-button {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+}
+
+.before-configurator__images {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.before-configurator__images-body {
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+
+.before-configurator__images-body img {
+    position: absolute;
+}
+
+.before-configurator__images_hidden img {
+    bottom: -50%;
+}
+
+.before-configurator__shoes {
+    right: 0;
+    bottom: 61%;
+    transition: bottom 350ms ease-in-out 250ms;
+}
+
+.before-configurator__butterfly {
+    left: 0;
+    bottom: 51%;
+    transition: bottom 350ms ease-in-out 350ms;
+}
+
+.before-configurator__sunglasses {
+    right: 0;
+    bottom: 46%;
+    transition: bottom 350ms ease-in-out 350ms;
+}
+
+.before-configurator__banana {
+    left: 0;
+    bottom: 58%;
+    transition: bottom 350ms ease-in-out 250ms;
+}
+
+.before-configurator__glasses {
+    right: 43px;
+    bottom: 71%;
+    transition: bottom 350ms ease-in-out 150ms;
+}
+
+.before-configurator__lollipop {
+    left: 0;
+    bottom: 61%;
+    transition: bottom 350ms ease-in-out 150ms;
+    filter: blur(2px);
+    transform: translate3d(0, 0, 0);
+}

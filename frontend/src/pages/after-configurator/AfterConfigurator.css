@@ -1,0 +1,46 @@
+.after-configurator {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.after-configurator__beaver {
+    position: relative;
+    width: 100%;
+    height: 357px;
+}
+
+.after-configurator__buttons {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.after-configurator__buttons:first-child {
+    margin: 0 0 8px 0;
+}
+
+.after-configurator__background-gradient {
+    position: absolute;
+    width: 406px;
+    height: 406px;
+    top: 140px;
+    background: #254EDB;
+    filter: blur(90px);
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+}
+.after-configurator__background-gradient:first-of-type {
+    left: -234px;
+}
+.after-configurator__background-gradient:nth-of-type(2) {
+    right: -234px;
+}
