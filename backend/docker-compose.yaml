@@ -1,0 +1,30 @@
+version: "3.3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: 'app/Dockerfile'
+    env_file:
+      - ./app/.env
+    ports:
+      - "8080:8000"
+    expose:
+      - "8080"
+    volumes:
+      - /var/www/venom-x-sportybeavers-frontend/public:/app/public
+
+  database:
+    image: postgres:14.6
+    env_file:
+      - ./app/.env
+    ports:
+      - "54320:5432"
+    expose:
+      - "54320"
+    volumes:
+      - sporty_postgres:/var/lib/postgresql/data
+
+
+volumes:
+  sporty_postgres:
